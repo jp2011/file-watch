@@ -7,6 +7,7 @@ publishes notifications using Amazon SNS.
 
 ## Deployment
 In order to deploy the script in AWS for your use case you need to:
+
 1. Set ```FILE_URL``` to the url of the file your script will be watching
 2. Set ```S3_BUCKET_NAME``` to the name of your bucket you want to use for storing hash of the current version of the 
 document
